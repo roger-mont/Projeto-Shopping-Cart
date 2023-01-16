@@ -5,6 +5,7 @@ import computadorSearch from './mocks/search';
 // implemente seus testes aqui
 describe('Teste a função fetchProductsList', () => {
   it('fetchProductsList é uma função', () => {
+    expect(fetchProductsList).toBeInstanceOf(Function)
   });
 
   it('fetch é chamado ao executar fetchProductsList', async () => {
@@ -12,7 +13,7 @@ describe('Teste a função fetchProductsList', () => {
   });
 
   it('fetch é chamado com o endpoint correto ao executar fetchProductsList', async () => {
-    await expect(fetchProductsList('computador')).resolves.toContain(computadorSearch)
+    await expect(fetchProductsList('computador')).resolves.toEqual(computadorSearch)
   });
 
   // it('...', () => {
