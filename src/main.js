@@ -21,7 +21,7 @@ const pegaId = () => {
   });
 };
 
-const x = async () => {
+const loadFunction = async () => {
   const productArea = document.querySelector('.products');
   productArea.innerHTML += '<span class="loading">carregando...</span>';
   try {
@@ -39,4 +39,4 @@ const x = async () => {
   }
 };
 
-window.onload = x();
+window.onload = loadFunction();
