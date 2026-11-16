@@ -1,10 +1,21 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Shopping Cart
+
+Carrinho de compras em JavaScript puro, consumindo a API pública do Mercado Livre. Projeto do curso de Desenvolvimento Web da Trybe.
+
+- Lista de produtos e detalhes pela API do Mercado Livre
+- Carrinho com total, persistido no `localStorage`
+- Busca de endereço pelo CEP
+- Funções de fetch testadas com Jest (mocks) e fluxo testado com Cypress
+
+## Stack
+
+JavaScript (ES6+) · Fetch API · Jest · Cypress
+
+## Rodar
+
+```bash
+npm install
+npm test
+```
+
+Abra o `index.html` no navegador (ou use uma extensão de servidor local).
